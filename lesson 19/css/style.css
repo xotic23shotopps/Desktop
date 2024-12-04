@@ -1,0 +1,106 @@
+.contanier{
+    display: flex;
+    background:#06206a ;
+}
+.contanier div:nth-child(2){
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+.contanier div:nth-child(1){
+    order: 4;
+}
+.contanier div:nth-child(2){
+    order: 1;
+}
+.contanier div:nth-child(3){
+    order: 3;
+}
+.contanier div:nth-child(4){
+    order: 2;
+}
+.contanier2{
+    display: flex;
+    background-color: aqua;
+    flex-direction: column-reverse;
+
+}
+.contanier2 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+NOW WRAP
+/*.container3 {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 300px;
+}
+*/
+WRAP
+/*.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px; 
+*/
+WRAP REVERSE
+/*.container {
+    display: flex;
+    flex-wrap: wrap-reverse;  
+    width: 300px;
+    */
+WRAP FLEX
+/* .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 300px;
+        */
+.container3 div{
+    background-color: rgb(255, 0, 0);
+    margin: 10px;
+    padding: 20px;
+    font-size: 50px; 
+}
+.contanier3{
+    display: flex;
+    background-color: rgb(200, 255, 0);
+    flex-wrap: wrap-reverse;  
+}
+.contanier4{
+    display:flex;
+    background: blue;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.contanier4 div:nth-child(1){
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    height: 50px;
+}
+.contanier4 div:nth-child(2){
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    height: 70px;
+}
+.contanier4 div:nth-child(3){
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    height: 95px;
+}
+.contanier4 div:nth-child(4){
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    height: 12px;
+}
