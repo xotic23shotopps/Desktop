@@ -1,0 +1,106 @@
+/* Resetting margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color:white;
+}
+
+/* Header Styling */
+.header {
+    
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 100px;
+}
+
+.header .logo a {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.header .top-right {
+    display: flex;
+    gap: 20px;
+}
+
+.header .top-right a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.header .top-right a:hover {
+    color: #febd69;
+}
+
+/* Main Content Styling */
+.content {
+    padding: 30px;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+section{
+    background-color: #8b43a6;
+    height: 550px;
+
+}
+-------------------------------------------------------------
+
+body {
+    height: 100vh;  /* Viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+.button-container {
+    text-align: center;
+}
+.center-button {
+    background-color: #eb7d4b;
+    color: white;
+    font-size: 16px;
+    padding: 20px 55px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+.center-button:hover {
+    background-color: #45a049;
+}
