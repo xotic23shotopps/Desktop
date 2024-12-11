@@ -1,0 +1,77 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white; /* Light background color */
+    
+}
+
+/* Navigation Bar Styling */
+.thenavbar {
+    background-color: #8d4aa7; /* Purple background for navbar */
+    padding: 30px 20px; /* Adjust padding */
+}
+
+.thenavbar ul {
+    list-style: none; /* Remove bullets */
+    text-align: right; /* Align the navbar items to the right */
+}
+
+.thenavbar ul li {
+    display: inline; /* Make the list items inline */
+    margin-left: 20px; /* Space between navbar items */
+}
+
+.thenavbar ul li a {
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 16px; /* Font size for the links */
+    padding: 8px 16px; /* Padding around links */
+}
+
+.thenavbar ul li a:hover {
+    background-color:white ; /* Darker background on hover */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Section for main content */
+.The1page {
+    background-color: #87509c; /* White background for main content */
+    text-align: center; /* Center the text */
+    padding: 150px 20px; /* Padding around the content */
+}
+
+.The1page h2 {
+    font-size: 2rem; /* Larger text for the heading */
+    color: white; /* Dark text color */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Styling for the button */
+.Button1 {
+
+    background-color: orange; /* Button background color */
+    color: white; /* White text */
+    padding: 15px 30px; /* Padding inside the button */
+    font-size: 16px; /* Button text size */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change the cursor to a pointer */
+    text-align: center; /* Center the button text */
+}
+
+.Button1:hover {
+    background-color: #e68919; /* Darker orange on hover */
+}
+
+/* Style for the overall page wrapper */
+.stpageall {
+    text-align: center; /* Center everything inside */
+    background-color: #f4f4f4; /* Light gray background */
+}
