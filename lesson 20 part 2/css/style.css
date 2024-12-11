@@ -44,7 +44,7 @@ body {
 .The1page {
     background-color: #87509c; /* White background for main content */
     text-align: center; /* Center the text */
-    padding: 150px 20px; /* Padding around the content */
+    padding: 130px 20px; /* Padding around the content */
 }
 
 .The1page h2 {
@@ -73,5 +73,23 @@ body {
 /* Style for the overall page wrapper */
 .stpageall {
     text-align: center; /* Center everything inside */
-    background-color: #f4f4f4; /* Light gray background */
+    background-color: #17c2a4; /* Light gray background */
+}
+.The2page {
+    text-align: center; /* Center the text */
+    padding: 130px 20px; /* Padding around the content */
+}
+.The2page h2 {
+    font-size: larger; /* Larger text for the heading */
+    color: white; /* Dark text color */
+    margin-bottom: 400px; /* Space below the heading */
+}
+.The3page {
+    text-align: center; /* Center the text */
+    padding: -100px 30px; /* Padding around the content */
+}
+.The3page h2 {
+    font-size: small; /* Larger text for the heading */
+    color: white; /* Dark text color */
+    margin-bottom: 500px; /* Space below the heading */
 }
